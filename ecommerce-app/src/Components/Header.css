@@ -1,14 +1,72 @@
-.photo {
-  height: 20px;
-  width: 20px;
-}
-
 .header {
   height: 60px;
   display: flex;
   align-items: center;
   background-color: darkolivegreen;
   position: sticky;
+  /* sticky --> stick even if you scroll down */
   top: 0;
   z-index: 100;
+}
+
+.header__logo {
+  height: 60px;
+  width: 100px;
+  object-fit: contain; /*  Keep aspect ratio */
+  margin: 0 20px;
+  margin-top: 5 px;
+}
+
+.header__search_icon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: darkseagreen;
+}
+
+.header__search {
+  /* flex box to re-align*/
+  display: flex;
+  flex: 1; /* Stretch in the space */
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header_search_input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option_line1 {
+  font-size: 10px;
+}
+
+.header__option_line2 {
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.header_basket_option {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header_basket_count {
+  margin-left: 10px;
+  margin-right: 10px;
 }
