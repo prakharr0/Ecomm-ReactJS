@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Header.css'
-import logo from './logo.png'
+import './Header.css';
+import logo from './logo.png';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
