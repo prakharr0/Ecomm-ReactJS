@@ -1,0 +1,14 @@
+.photo {
+  height: 20px;
+  width: 20px;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: darkolivegreen;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
